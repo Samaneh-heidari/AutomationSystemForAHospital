@@ -1,0 +1,99 @@
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\BST\documents\visual studio 2010\Projects\PresentDr\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\10-with flash-movie-pics and correct path-Last version to tahvil\PresentDr\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\19 - compy of 10-with flash-movie-pics and correct path-Last version to tahvil-9 khordad\PresentDr\bin\Debug\AxInterop.WMPLib.dll

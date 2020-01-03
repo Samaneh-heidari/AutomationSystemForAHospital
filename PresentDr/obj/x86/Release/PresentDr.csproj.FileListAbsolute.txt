@@ -1,0 +1,58 @@
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\bin\Release\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\bin\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\bin\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\PresentDr\PresentDr\obj\x86\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Release\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\Doctor2\PresentDr\PresentDr\bin\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\2-with 1 day-hour-speciality and newDoctorDB-4 pm\PresentDr\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\PresentDr.exe.config
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\PresentDr.csproj.ResolveComReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\PresentDr.Form1.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\PresentDr.Properties.Resources.resources
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\PresentDr.exe
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\PresentDr.pdb
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\Interop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\Interop.WMPLib.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Golestan\Desktop\sam\payambaran\third phase\stable versions\7-with 1 day-hour-speciality and newDoctorDB-89-12-18\PresentDr\bin\Release\AxInterop.WMPLib.dll

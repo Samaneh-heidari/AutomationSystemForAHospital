@@ -1,0 +1,19 @@
+CODE
+CREATE TRIGGER trAutoUpdate
+ON Table1
+FOR Update
+
+DECLARE @var1 varchar(10)
+DECLARE @varID bigint
+  /*Create a bunch of variables here to hold
+  all the data you are getting from the Table1 to
+  match Table2 */
+
+SELECT @var1 = Field1, @varID = ID FROM Inserted
+  /* Here again I am only listing 2 fields.  But you would
+  fill all your fields with the appropriate variable
+  assigned from the Inserted table */
+
+UPDATE Table 2 SET
+  Field1 = @var1
+WHERE ID = @varID  /* One more time, note only 2 fields and variable. You should fill as needed. */ 

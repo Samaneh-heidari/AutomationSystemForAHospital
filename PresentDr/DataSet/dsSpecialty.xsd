@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSpecialty" targetNamespace="http://tempuri.org/dsSpecialty.xsd" xmlns:mstns="http://tempuri.org/dsSpecialty.xsd" xmlns="http://tempuri.org/dsSpecialty.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DoctorDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DoctorDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PresentDr.Properties.Settings.GlobalReference.Default.DoctorDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SpecialtyTableAdapter" GeneratorDataComponentClassName="SpecialtyTableAdapter" Name="Specialty" UserDataComponentName="SpecialtyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DoctorDBConnectionString1 (Settings)" DbObjectName="DoctorDB.dbo.vw_Specialty" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT specialtyId, specialty, enSpecialty FROM dbo.vw_Specialty</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="specialtyId" DataSetColumn="specialtyId" />
+              <Mapping SourceColumn="specialty" DataSetColumn="specialty" />
+              <Mapping SourceColumn="enSpecialty" DataSetColumn="enSpecialty" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSpecialty" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSpecialty" msprop:Generator_UserDSName="dsSpecialty">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Specialty" msprop:Generator_TableClassName="SpecialtyDataTable" msprop:Generator_TableVarName="tableSpecialty" msprop:Generator_TablePropName="Specialty" msprop:Generator_RowDeletingName="SpecialtyRowDeleting" msprop:Generator_UserTableName="Specialty" msprop:Generator_RowChangingName="SpecialtyRowChanging" msprop:Generator_RowEvHandlerName="SpecialtyRowChangeEventHandler" msprop:Generator_RowDeletedName="SpecialtyRowDeleted" msprop:Generator_RowEvArgName="SpecialtyRowChangeEvent" msprop:Generator_RowChangedName="SpecialtyRowChanged" msprop:Generator_RowClassName="SpecialtyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="specialtyId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnspecialtyId" msprop:Generator_ColumnPropNameInRow="specialtyId" msprop:Generator_ColumnPropNameInTable="specialtyIdColumn" msprop:Generator_UserColumnName="specialtyId" type="xs:string" />
+              <xs:element name="specialty" msprop:Generator_ColumnVarNameInTable="columnspecialty" msprop:Generator_ColumnPropNameInRow="specialty" msprop:Generator_ColumnPropNameInTable="specialtyColumn" msprop:Generator_UserColumnName="specialty">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="enSpecialty" msprop:Generator_ColumnVarNameInTable="columnenSpecialty" msprop:Generator_ColumnPropNameInRow="enSpecialty" msprop:Generator_ColumnPropNameInTable="enSpecialtyColumn" msprop:Generator_UserColumnName="enSpecialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Specialty" />
+      <xs:field xpath="mstns:specialtyId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

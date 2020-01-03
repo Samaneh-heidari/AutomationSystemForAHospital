@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8D223CD-48F3-4215-B001-E59D5077C17D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PresentDr</RootNamespace>
+    <AssemblyName>PresentDr</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Connection.cs" />
+    <Compile Include="Common\ExceptionHandler.cs" />
+    <Compile Include="Common\FarsiDate.cs" />
+    <Compile Include="DataAccess\DayDataAccess.cs" />
+    <Compile Include="DataAccess\DrDataAccess.cs" />
+    <Compile Include="DataAccess\HourDataAccess.cs" />
+    <Compile Include="DataAccess\SpecialtyDataAccess.cs" />
+    <Compile Include="DataAccess\TempDataAccess.cs" />
+    <Compile Include="DataSet\dsDay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsDoctor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDoctor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsDr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsDrDay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDrDay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsHour.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHour.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsPresentDr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPresentDr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsSpecialty.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSpecialty.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\dsTemp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTemp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\dsDay.xsc">
+      <DependentUpon>dsDay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDay.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDay.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsDay.xss">
+      <DependentUpon>dsDay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDoctor.xsc">
+      <DependentUpon>dsDoctor.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDoctor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDoctor.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsDoctor.xss">
+      <DependentUpon>dsDoctor.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDr.xsc">
+      <DependentUpon>dsDr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDr.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsDr.xss">
+      <DependentUpon>dsDr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDrDay.xsc">
+      <DependentUpon>dsDrDay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsDrDay.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDrDay.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsDrDay.xss">
+      <DependentUpon>dsDrDay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsHour.xsc">
+      <DependentUpon>dsHour.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsHour.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHour.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsHour.xss">
+      <DependentUpon>dsHour.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsInfo.xsc">
+      <DependentUpon>dsInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsInfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsInfo.xss">
+      <DependentUpon>dsInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsPresentDr.xsc">
+      <DependentUpon>dsPresentDr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsPresentDr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPresentDr.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsPresentDr.xss">
+      <DependentUpon>dsPresentDr.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsSpecialty.xsc">
+      <DependentUpon>dsSpecialty.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsSpecialty.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSpecialty.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsSpecialty.xss">
+      <DependentUpon>dsSpecialty.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsTemp.xsc">
+      <DependentUpon>dsTemp.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\dsTemp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTemp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\dsTemp.xss">
+      <DependentUpon>dsTemp.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payambaran1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payambaran11.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

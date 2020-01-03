@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInfo" targetNamespace="http://tempuri.org/dsInfo.xsd" xmlns:mstns="http://tempuri.org/dsInfo.xsd" xmlns="http://tempuri.org/dsInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DoctorDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DoctorDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PresentDr.Properties.Settings.GlobalReference.Default.DoctorDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="InfoTableAdapter" GeneratorDataComponentClassName="InfoTableAdapter" Name="Info" UserDataComponentName="InfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DoctorDBConnectionString1 (Settings)" DbObjectName="DoctorDB.dbo.vw_Info" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT toTime, fromTime, specialty, enSpecialty, dayId, cardNum, fName, lName, biography, shNP, specialtyId, KINDVKH, pic, enName, days FROM dbo.vw_Info</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="toTime" DataSetColumn="toTime" />
+              <Mapping SourceColumn="fromTime" DataSetColumn="fromTime" />
+              <Mapping SourceColumn="specialty" DataSetColumn="specialty" />
+              <Mapping SourceColumn="enSpecialty" DataSetColumn="enSpecialty" />
+              <Mapping SourceColumn="dayId" DataSetColumn="dayId" />
+              <Mapping SourceColumn="cardNum" DataSetColumn="cardNum" />
+              <Mapping SourceColumn="fName" DataSetColumn="fName" />
+              <Mapping SourceColumn="lName" DataSetColumn="lName" />
+              <Mapping SourceColumn="biography" DataSetColumn="biography" />
+              <Mapping SourceColumn="shNP" DataSetColumn="shNP" />
+              <Mapping SourceColumn="specialtyId" DataSetColumn="specialtyId" />
+              <Mapping SourceColumn="KINDVKH" DataSetColumn="KINDVKH" />
+              <Mapping SourceColumn="pic" DataSetColumn="pic" />
+              <Mapping SourceColumn="enName" DataSetColumn="enName" />
+              <Mapping SourceColumn="days" DataSetColumn="days" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsInfo" msprop:Generator_UserDSName="dsInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Info" msprop:Generator_TableClassName="InfoDataTable" msprop:Generator_TableVarName="tableInfo" msprop:Generator_TablePropName="Info" msprop:Generator_RowDeletingName="InfoRowDeleting" msprop:Generator_UserTableName="Info" msprop:Generator_RowChangingName="InfoRowChanging" msprop:Generator_RowEvHandlerName="InfoRowChangeEventHandler" msprop:Generator_RowDeletedName="InfoRowDeleted" msprop:Generator_RowEvArgName="InfoRowChangeEvent" msprop:Generator_RowChangedName="InfoRowChanged" msprop:Generator_RowClassName="InfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="toTime" msprop:Generator_ColumnVarNameInTable="columntoTime" msprop:Generator_ColumnPropNameInRow="toTime" msprop:Generator_ColumnPropNameInTable="toTimeColumn" msprop:Generator_UserColumnName="toTime" type="xs:int" minOccurs="0" />
+              <xs:element name="fromTime" msprop:Generator_ColumnVarNameInTable="columnfromTime" msprop:Generator_ColumnPropNameInRow="fromTime" msprop:Generator_ColumnPropNameInTable="fromTimeColumn" msprop:Generator_UserColumnName="fromTime" type="xs:int" minOccurs="0" />
+              <xs:element name="specialty" msprop:Generator_ColumnVarNameInTable="columnspecialty" msprop:Generator_ColumnPropNameInRow="specialty" msprop:Generator_ColumnPropNameInTable="specialtyColumn" msprop:Generator_UserColumnName="specialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="enSpecialty" msprop:Generator_ColumnVarNameInTable="columnenSpecialty" msprop:Generator_ColumnPropNameInRow="enSpecialty" msprop:Generator_ColumnPropNameInTable="enSpecialtyColumn" msprop:Generator_UserColumnName="enSpecialty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dayId" msprop:Generator_ColumnVarNameInTable="columndayId" msprop:Generator_ColumnPropNameInRow="dayId" msprop:Generator_ColumnPropNameInTable="dayIdColumn" msprop:Generator_UserColumnName="dayId" type="xs:short" />
+              <xs:element name="cardNum" msprop:Generator_ColumnVarNameInTable="columncardNum" msprop:Generator_ColumnPropNameInRow="cardNum" msprop:Generator_ColumnPropNameInTable="cardNumColumn" msprop:Generator_UserColumnName="cardNum" type="xs:int" />
+              <xs:element name="fName" msprop:Generator_ColumnVarNameInTable="columnfName" msprop:Generator_ColumnPropNameInRow="fName" msprop:Generator_ColumnPropNameInTable="fNameColumn" msprop:Generator_UserColumnName="fName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="lName" msprop:Generator_ColumnVarNameInTable="columnlName" msprop:Generator_ColumnPropNameInRow="lName" msprop:Generator_ColumnPropNameInTable="lNameColumn" msprop:Generator_UserColumnName="lName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="biography" msprop:Generator_ColumnVarNameInTable="columnbiography" msprop:Generator_ColumnPropNameInRow="biography" msprop:Generator_ColumnPropNameInTable="biographyColumn" msprop:Generator_UserColumnName="biography" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="shNP" msprop:Generator_ColumnVarNameInTable="columnshNP" msprop:Generator_ColumnPropNameInRow="shNP" msprop:Generator_ColumnPropNameInTable="shNPColumn" msprop:Generator_UserColumnName="shNP" type="xs:int" />
+              <xs:element name="specialtyId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnspecialtyId" msprop:Generator_ColumnPropNameInRow="specialtyId" msprop:Generator_ColumnPropNameInTable="specialtyIdColumn" msprop:Generator_UserColumnName="specialtyId" type="xs:string" />
+              <xs:element name="KINDVKH" msprop:Generator_ColumnVarNameInTable="columnKINDVKH" msprop:Generator_ColumnPropNameInRow="KINDVKH" msprop:Generator_ColumnPropNameInTable="KINDVKHColumn" msprop:Generator_UserColumnName="KINDVKH" type="xs:short" />
+              <xs:element name="pic" msprop:Generator_ColumnVarNameInTable="columnpic" msprop:Generator_ColumnPropNameInRow="pic" msprop:Generator_ColumnPropNameInTable="picColumn" msprop:Generator_UserColumnName="pic" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="enName" msprop:Generator_ColumnVarNameInTable="columnenName" msprop:Generator_ColumnPropNameInRow="enName" msprop:Generator_ColumnPropNameInTable="enNameColumn" msprop:Generator_UserColumnName="enName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="days" msprop:Generator_ColumnVarNameInTable="columndays" msprop:Generator_ColumnPropNameInRow="days" msprop:Generator_ColumnPropNameInTable="daysColumn" msprop:Generator_UserColumnName="days">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Info" />
+      <xs:field xpath="mstns:cardNum" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

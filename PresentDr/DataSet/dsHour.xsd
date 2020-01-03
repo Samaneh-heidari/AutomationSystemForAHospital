@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHour" targetNamespace="http://tempuri.org/dsHour.xsd" xmlns:mstns="http://tempuri.org/dsHour.xsd" xmlns="http://tempuri.org/dsHour.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DoctorDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DoctorDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PresentDr.Properties.Settings.GlobalReference.Default.DoctorDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="HourTableAdapter" GeneratorDataComponentClassName="HourTableAdapter" Name="Hour" UserDataComponentName="HourTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DoctorDBConnectionString1 (Settings)" DbObjectName="DoctorDB.dbo.vw_Hour" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT hourId, fromTime, toTime, cardNum, dayId FROM dbo.vw_Hour</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="hourId" DataSetColumn="hourId" />
+              <Mapping SourceColumn="fromTime" DataSetColumn="fromTime" />
+              <Mapping SourceColumn="toTime" DataSetColumn="toTime" />
+              <Mapping SourceColumn="cardNum" DataSetColumn="cardNum" />
+              <Mapping SourceColumn="dayId" DataSetColumn="dayId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHour" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsHour" msprop:Generator_UserDSName="dsHour">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Hour" msprop:Generator_TableClassName="HourDataTable" msprop:Generator_TableVarName="tableHour" msprop:Generator_TablePropName="Hour" msprop:Generator_RowDeletingName="HourRowDeleting" msprop:Generator_UserTableName="Hour" msprop:Generator_RowChangingName="HourRowChanging" msprop:Generator_RowEvHandlerName="HourRowChangeEventHandler" msprop:Generator_RowDeletedName="HourRowDeleted" msprop:Generator_RowEvArgName="HourRowChangeEvent" msprop:Generator_RowChangedName="HourRowChanged" msprop:Generator_RowClassName="HourRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="hourId" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnhourId" msprop:Generator_ColumnPropNameInRow="hourId" msprop:Generator_ColumnPropNameInTable="hourIdColumn" msprop:Generator_UserColumnName="hourId" type="xs:string" />
+              <xs:element name="fromTime" msprop:Generator_ColumnVarNameInTable="columnfromTime" msprop:Generator_ColumnPropNameInRow="fromTime" msprop:Generator_ColumnPropNameInTable="fromTimeColumn" msprop:Generator_UserColumnName="fromTime" type="xs:int" minOccurs="0" />
+              <xs:element name="toTime" msprop:Generator_ColumnVarNameInTable="columntoTime" msprop:Generator_ColumnPropNameInRow="toTime" msprop:Generator_ColumnPropNameInTable="toTimeColumn" msprop:Generator_UserColumnName="toTime" type="xs:int" minOccurs="0" />
+              <xs:element name="cardNum" msprop:Generator_ColumnVarNameInTable="columncardNum" msprop:Generator_ColumnPropNameInRow="cardNum" msprop:Generator_ColumnPropNameInTable="cardNumColumn" msprop:Generator_UserColumnName="cardNum" type="xs:int" />
+              <xs:element name="dayId" msprop:Generator_ColumnVarNameInTable="columndayId" msprop:Generator_ColumnPropNameInRow="dayId" msprop:Generator_ColumnPropNameInTable="dayIdColumn" msprop:Generator_UserColumnName="dayId" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Hour" />
+      <xs:field xpath="mstns:hourId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

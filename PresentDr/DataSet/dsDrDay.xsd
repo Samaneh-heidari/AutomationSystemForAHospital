@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDrDay" targetNamespace="http://tempuri.org/dsDrDay.xsd" xmlns:mstns="http://tempuri.org/dsDrDay.xsd" xmlns="http://tempuri.org/dsDrDay.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DoctorDBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DoctorDBConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PresentDr.Properties.Settings.GlobalReference.Default.DoctorDBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DrDayTableAdapter" GeneratorDataComponentClassName="DrDayTableAdapter" Name="DrDay" UserDataComponentName="DrDayTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DoctorDBConnectionString1 (Settings)" DbObjectName="DoctorDB.dbo.vw_DrDay" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT cardNum, dayId FROM dbo.vw_DrDay</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cardNum" DataSetColumn="cardNum" />
+              <Mapping SourceColumn="dayId" DataSetColumn="dayId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDrDay" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDrDay" msprop:Generator_UserDSName="dsDrDay">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DrDay" msprop:Generator_TableClassName="DrDayDataTable" msprop:Generator_TableVarName="tableDrDay" msprop:Generator_TablePropName="DrDay" msprop:Generator_RowDeletingName="DrDayRowDeleting" msprop:Generator_UserTableName="DrDay" msprop:Generator_RowChangingName="DrDayRowChanging" msprop:Generator_RowEvHandlerName="DrDayRowChangeEventHandler" msprop:Generator_RowDeletedName="DrDayRowDeleted" msprop:Generator_RowEvArgName="DrDayRowChangeEvent" msprop:Generator_RowChangedName="DrDayRowChanged" msprop:Generator_RowClassName="DrDayRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cardNum" msprop:Generator_ColumnVarNameInTable="columncardNum" msprop:Generator_ColumnPropNameInRow="cardNum" msprop:Generator_ColumnPropNameInTable="cardNumColumn" msprop:Generator_UserColumnName="cardNum" type="xs:int" />
+              <xs:element name="dayId" msprop:Generator_ColumnVarNameInTable="columndayId" msprop:Generator_ColumnPropNameInRow="dayId" msprop:Generator_ColumnPropNameInTable="dayIdColumn" msprop:Generator_UserColumnName="dayId" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DrDay" />
+      <xs:field xpath="mstns:cardNum" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
